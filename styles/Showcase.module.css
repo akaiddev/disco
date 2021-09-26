@@ -1,0 +1,32 @@
+.showcase {
+  height: 100vh;
+  width: 100%;
+  background: #ff0b0bc4 url('../assets/showcase.jpg') no-repeat center center;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.showcase::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.showcase * {
+  z-index: 20;
+}
+
+.showcase h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}

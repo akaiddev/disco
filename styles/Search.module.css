@@ -1,0 +1,15 @@
+.search input {
+   padding: 10px 10px;
+   border-radius: 1px;
+   font-family: 'Rajdhani', sans-serif;
+   outline-style: none;
+   font-weight: 400;
+   background: #191f24 url('../assets/search.jpg');
+   color: #fff;
+   border: 2px solid #3f464c;
+   border-width: 0 1px 1px 0;
+   float: right;
+   width: 250px;
+   height: 35px;
+   font-weight: bold;
+}

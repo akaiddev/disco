@@ -1,0 +1,38 @@
+.auth {
+   max-width: 500px;
+   margin: auto;
+   padding: 30px;
+   box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.auth label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.auth input[type='text'],
+.auth input[type='email'],
+.auth input[type='password'] {
+   display: block;
+   width: 100%;
+   height: 40px;
+   padding: 5px;
+   font-size: 18px;
+   border: 2px solid #3f464c;
+   font-family: 'Rajdhani', sans-serif;
+   outline-style: none;
+   color: #fff;
+   background: #191f24 url('../assets/search.jpg');
+}
+
+.auth input[type='submit'] {
+   margin-top: 20px;
+   width: 100%;
+   font-family: 'Rajdhani', sans-serif;
+   outline-style: none;
+   font-size: 17px;
+}
+
+.auth div {
+   margin-bottom: 20px;
+}
